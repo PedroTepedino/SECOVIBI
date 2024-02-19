@@ -1,0 +1,51 @@
+{
+  "config": "{\"version\":\"5.51\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.51\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU02",
+            "path": "BaseThemes/CY24SU02.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"54960e98730035d438dc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":400,\"y\":80,\"z\":1,\"width\":448,\"height\":304}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"2024-02-05.churrasqueira\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(2024-02-05.churrasqueira)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"2\",\"Entity\":\"2024-02-05\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"churrasqueira\"},\"Name\":\"2024-02-05.churrasqueira\",\"NativeReferenceName\":\"churrasqueira\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"churrasqueira\"}},\"Function\":5},\"Name\":\"CountNonNull(2024-02-05.churrasqueira)\",\"NativeReferenceName\":\"Count of churrasqueira\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"churrasqueira\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 304.00,
+          "width": 448.00,
+          "x": 400.00,
+          "y": 80.00,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"74c8f7e0a2230c08590b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":952,\"y\":56,\"z\":0,\"width\":288,\"height\":304}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(2024-02-05.area_terreno)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"2\",\"Entity\":\"2024-02-05\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"area_terreno\"}},\"Function\":0},\"Name\":\"Sum(2024-02-05.area_terreno)\",\"NativeReferenceName\":\"Sum of area_terreno\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"area_terreno\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 304.00,
+          "width": 288.00,
+          "x": 952.00,
+          "y": 56.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

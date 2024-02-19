@@ -1,0 +1,1785 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"2024-02-05\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.126.927.0 (24.02)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "4d6e6441-0615-42de-a331-d4c88328fae6",
+        "fromColumn": "atualizacao",
+        "fromTable": "2024-02-05",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_dd20a2fb-cff4-42e5-9be8-4af3088bd697"
+      },
+      {
+        "name": "af26e22a-1e93-49fd-adb1-492f1950e06c",
+        "fromColumn": "horario",
+        "fromTable": "2024-02-05",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_3c8aee40-c96e-4ffc-b847-6df96d5489ec"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "2024-02-05",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Column1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "96eee597-15eb-45ec-bc29-4ca340331e7b",
+            "sourceColumn": "Column1",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "link",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3a54a6cb-a0b8-4d50-9418-a71d14a0e607",
+            "sourceColumn": "link",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "descricao",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "af2acfbb-aea0-436a-b32c-324b3e4c2b55",
+            "sourceColumn": "descricao",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "creci",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3f4cb5dd-ae92-4075-9765-fff2dec64a07",
+            "sourceColumn": "creci",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "categoria",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0ef15abe-02b8-4188-86dd-0a1870412790",
+            "sourceColumn": "categoria",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "anunciante",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "94a066b9-b1ad-42e3-ad17-15dbd0e93eaa",
+            "sourceColumn": "anunciante",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "endereco",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "770fe626-d5f6-43c8-832f-e3b0498ce0d2",
+            "sourceColumn": "endereco",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "oferta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "74fac6bf-3d04-4058-97c7-212022cc65d8",
+            "sourceColumn": "oferta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4785028a-0ac8-42fd-b87f-1aa80a324595",
+            "sourceColumn": "tipo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "subtipo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3a878b80-a603-427c-a0cd-23f43c9435ff",
+            "sourceColumn": "subtipo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "latitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5e880885-c73c-4771-bc1e-20f43243f4e8",
+            "sourceColumn": "latitude",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "longitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c5660b75-ae35-4f48-85b2-ac52e636821f",
+            "sourceColumn": "longitude",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "area_util",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b5857ddf-3b85-4148-bd17-dd6baece944d",
+            "sourceColumn": "area_util",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "bairro",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7642046b-c2db-473f-94e5-9c6e2afebf1d",
+            "sourceColumn": "bairro",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "condominio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8045b823-fab7-4c70-805b-4a9a4ba68b83",
+            "sourceColumn": "condominio",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cidade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "236dd1be-1bd2-4af3-ad6d-b9090f01a292",
+            "sourceColumn": "cidade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "preco",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "123456f2-6486-48f8-80a4-0ef6e22df6ed",
+            "sourceColumn": "preco",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "previa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d6b093e8-fb3b-4b7d-b6c7-bf9621f995fb",
+            "sourceColumn": "previa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "quartos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "43517deb-3527-4156-9b67-f6a7f7c9d1b6",
+            "sourceColumn": "quartos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "suites",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3b2c57aa-5a33-41ca-a49c-184ce86f20e2",
+            "sourceColumn": "suites",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "vagas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "97c9c1dc-7ff0-498a-b0f3-a6c62adb79ed",
+            "sourceColumn": "vagas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "valor_m2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "770dec6d-0b54-411c-a943-fdc761f58b96",
+            "sourceColumn": "valor_m2",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "area_terreno",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "eb2befaf-36f0-42b6-97f2-742090b854c6",
+            "sourceColumn": "area_terreno",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "permuta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "81d2226b-6a15-4b53-989a-e0057afae1dd",
+            "sourceColumn": "permuta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "edificio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a3118d3b-3316-4227-ad78-901e8a389e98",
+            "sourceColumn": "edificio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "financiamento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f59488a8-4379-4903-a73c-0690eb449eaf",
+            "sourceColumn": "financiamento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "codigo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e55e24f6-4e15-4f91-89d6-c4bc05a373dd",
+            "sourceColumn": "codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IPTU",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0ed6d00f-80dd-4ae6-834f-7d738ce11d16",
+            "sourceColumn": "IPTU",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "sol",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "372e81ad-df31-4a0a-b42b-75d807e1b368",
+            "sourceColumn": "sol",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "atualizacao",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "869cb5e6-4613-4d29-ba30-3457896fcc3f",
+            "sourceColumn": "atualizacao",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_dd20a2fb-cff4-42e5-9be8-4af3088bd697"
+                },
+                "isDefault": true,
+                "relationship": "4d6e6441-0615-42de-a331-d4c88328fae6"
+              }
+            ]
+          },
+          {
+            "name": "area_total",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "27c3fc89-d516-4a34-94c8-94d88879c255",
+            "sourceColumn": "area_total",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "andar",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "af1cd090-c760-453c-97d8-1d2550c99b4d",
+            "sourceColumn": "andar",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_andares",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c50006ce-93b3-4119-bf58-24371f0d1456",
+            "sourceColumn": "total_andares",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "posicao_imovel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eb50d825-21eb-4af9-80d8-1043a4873dc2",
+            "sourceColumn": "posicao_imovel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "aquecimento_solar",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "d917c760-4b0c-4046-8217-0e6825eb4bf8",
+            "sourceColumn": "aquecimento_solar",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ar_condicionado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "97b9643c-ea50-47e0-8cd0-b83de4d7132e",
+            "sourceColumn": "ar_condicionado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "area_de_lazer",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "8b4cb1de-48db-409a-a0d7-cdc0dbc6275a",
+            "sourceColumn": "area_de_lazer",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "area_de_servico",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "50027eff-7e56-476d-903d-ec6319d8ab5e",
+            "sourceColumn": "area_de_servico",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "area_de_servico_coberta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "b8d5858b-e6ee-46ff-89b3-c23eb720de8d",
+            "sourceColumn": "area_de_servico_coberta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "brinquedoteca",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "dadfd49c-3898-41b0-a57f-aaff30ffd373",
+            "sourceColumn": "brinquedoteca",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "churrasqueira",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "5afe4416-4f72-4bae-a576-77c857fe25e7",
+            "sourceColumn": "churrasqueira",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "circuito_de_tv",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "165ed863-ff14-4749-aa05-20e450c80a0e",
+            "sourceColumn": "circuito_de_tv",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cobertura_coletiva",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "37346f5b-0e36-43e3-af6e-721aa5a44642",
+            "sourceColumn": "cobertura_coletiva",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cozinha_espacosa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "14cdea09-4d6d-4e97-ba47-1c003ed5c0fc",
+            "sourceColumn": "cozinha_espacosa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cozinha_com_armarios",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "845cbd47-9f35-4752-99c1-80a27cd2aae6",
+            "sourceColumn": "cozinha_com_armarios",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "despensa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "f72c06e6-594d-4690-9f60-a902dcf42a3a",
+            "sourceColumn": "despensa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "escritorio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "472be5af-301c-4a88-9714-a9e4593e98ad",
+            "sourceColumn": "escritorio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "garagem",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "e0e2d157-fef4-497c-87bf-e878418fe477",
+            "sourceColumn": "garagem",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gas_canalizado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "86dc1d1f-f96c-401f-9bbb-b48c6f62d49a",
+            "sourceColumn": "gas_canalizado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gerador_de_energia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "bd4f38b9-c589-48e7-b34e-250afc3b98f6",
+            "sourceColumn": "gerador_de_energia",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "guarita",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "5251ffb4-941f-44ff-b123-78b48a982219",
+            "sourceColumn": "guarita",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "home_theater",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "968b3190-2754-4f31-a046-d611f0081f7b",
+            "sourceColumn": "home_theater",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "interfone",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "a4eca0f3-a764-442d-b378-7cf9a40c3f55",
+            "sourceColumn": "interfone",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "jardim",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "f25156be-d34a-4135-9f51-46cdce46f518",
+            "sourceColumn": "jardim",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "lazer_no_pilotis",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "56b0a2f2-f95c-44f4-854d-b445abd62cbf",
+            "sourceColumn": "lazer_no_pilotis",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "lavabo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "683c3f96-1d01-43fe-9a36-62582a90c60f",
+            "sourceColumn": "lavabo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mobiliado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "8cc3e76b-c753-49ef-91cc-3af7775304f7",
+            "sourceColumn": "mobiliado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pintura_nova",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "85571ef3-377a-4e2d-807c-64074c185b99",
+            "sourceColumn": "pintura_nova",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "piscina",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "dbe29afa-4068-4276-baef-9a0cce41b191",
+            "sourceColumn": "piscina",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "piso_em_porcelanato",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "06a42ba8-2ec0-4d4b-bec4-b3731b159da1",
+            "sourceColumn": "piso_em_porcelanato",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "play_ground",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "ba1532b3-9d54-4e36-832a-7bdba519cc35",
+            "sourceColumn": "play_ground",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "poco_artesiano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "c623b098-8231-4d50-8c72-8fb23a18f0a0",
+            "sourceColumn": "poco_artesiano",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "portao_eletronico",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "e14a2280-d972-403f-a9fc-070b158e7df7",
+            "sourceColumn": "portao_eletronico",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "projeto_de_iluminacao",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "7def75ba-2bff-4752-90f6-ab523019d031",
+            "sourceColumn": "projeto_de_iluminacao",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "quadra_esportiva",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "eec7f23e-ae4a-493b-b188-a4339277999a",
+            "sourceColumn": "quadra_esportiva",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sala_de_ginastica",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "f4944ec6-137f-4a6d-9020-75857f6f36ae",
+            "sourceColumn": "sala_de_ginastica",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sala_de_jogos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "360f7c0a-837e-4322-8720-45c0054c07df",
+            "sourceColumn": "sala_de_jogos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "salao_de_festas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "6f1aacdd-62df-4d71-9c39-36d1e0173b42",
+            "sourceColumn": "salao_de_festas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "salao_gourmet",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "417a14eb-e6a3-47f9-acbd-f97fa14b0a7c",
+            "sourceColumn": "salao_gourmet",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "salao_de_jogos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "d3c5f4a1-3149-4be3-a004-8f5406aadaf3",
+            "sourceColumn": "salao_de_jogos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sauna",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "cacaa5ca-2bbe-4fd6-b7d8-26bb744aacd4",
+            "sourceColumn": "sauna",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "spa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "8364a491-720d-44a0-b108-05e88cac2069",
+            "sourceColumn": "spa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "varanda",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "cf32390e-f7c1-4da1-a4cd-2c7916836834",
+            "sourceColumn": "varanda",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "vista_livre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "48c2f50c-7934-4126-a20c-9ed77663e325",
+            "sourceColumn": "vista_livre",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ativo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "e4530a93-4d77-4d75-9ca9-b9347b43c942",
+            "sourceColumn": "ativo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "horario",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "e1d4d4ac-2a4c-4c39-9f34-1baf747cefde",
+            "sourceColumn": "horario",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_3c8aee40-c96e-4ffc-b847-6df96d5489ec"
+                },
+                "isDefault": true,
+                "relationship": "af26e22a-1e93-49fd-adb1-492f1950e06c"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "e0a98f10-0b13-4309-829f-a0c1ad557470",
+        "partitions": [
+          {
+            "name": "2024-02-05",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"D:\\Downloads\\2024-02-05.csv\"),[Delimiter=\",\", Columns=76, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"\", Int64.Type}, {\"link\", type text}, {\"descricao\", type text}, {\"creci\", type text}, {\"categoria\", type text}, {\"anunciante\", type text}, {\"endereco\", type text}, {\"oferta\", type text}, {\"tipo\", type text}, {\"subtipo\", type text}, {\"latitude\", Int64.Type}, {\"longitude\", Int64.Type}, {\"area_util\", Int64.Type}, {\"bairro\", type text}, {\"condominio\", Int64.Type}, {\"cidade\", type text}, {\"preco\", type text}, {\"previa\", type text}, {\"quartos\", Int64.Type}, {\"suites\", Int64.Type}, {\"vagas\", Int64.Type}, {\"valor_m2\", Int64.Type}, {\"area_terreno\", Int64.Type}, {\"permuta\", type text}, {\"edificio\", type text}, {\"financiamento\", type text}, {\"codigo\", type text}, {\"IPTU\", Int64.Type}, {\"sol\", type text}, {\"atualizacao\", type date}, {\"area_total\", Int64.Type}, {\"andar\", Int64.Type}, {\"total_andares\", Int64.Type}, {\"posicao_imovel\", type text}, {\"aquecimento_solar\", type logical}, {\"ar_condicionado\", type logical}, {\"area_de_lazer\", type logical}, {\"area_de_servico\", type logical}, {\"area_de_servico_coberta\", type logical}, {\"brinquedoteca\", type logical}, {\"churrasqueira\", type logical}, {\"circuito_de_tv\", type logical}, {\"cobertura_coletiva\", type logical}, {\"cozinha_espacosa\", type logical}, {\"cozinha_com_armarios\", type logical}, {\"despensa\", type logical}, {\"escritorio\", type logical}, {\"garagem\", type logical}, {\"gas_canalizado\", type logical}, {\"gerador_de_energia\", type logical}, {\"guarita\", type logical}, {\"home_theater\", type logical}, {\"interfone\", type logical}, {\"jardim\", type logical}, {\"lazer_no_pilotis\", type logical}, {\"lavabo\", type logical}, {\"mobiliado\", type logical}, {\"pintura_nova\", type logical}, {\"piscina\", type logical}, {\"piso_em_porcelanato\", type logical}, {\"play_ground\", type logical}, {\"poco_artesiano\", type logical}, {\"portao_eletronico\", type logical}, {\"projeto_de_iluminacao\", type logical}, {\"quadra_esportiva\", type logical}, {\"sala_de_ginastica\", type logical}, {\"sala_de_jogos\", type logical}, {\"salao_de_festas\", type logical}, {\"salao_gourmet\", type logical}, {\"salao_de_jogos\", type logical}, {\"sauna\", type logical}, {\"spa\", type logical}, {\"varanda\", type logical}, {\"vista_livre\", type logical}, {\"ativo\", type logical}, {\"horario\", type datetime}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_3702c327-8c45-4364-9be3-7ad1e824245b",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "5260948d-ffa4-42bc-abcf-6285bcc90e5c",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "2b9bbb8c-a90f-48a9-9fa2-9cdc01063264",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "47c80a5d-dfdd-4b2d-8946-baa001c07c10",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "11cad348-8c19-4bd1-bb7b-7c48905f030c",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "f424d022-3f41-4240-bb9b-fd9288deac96",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "2abe6a0c-aa1e-4892-91f1-85530a2a0c8f",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "2a9f97e6-bdd3-4c6a-921d-d63dee50641d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "2f9c4be2-d9cc-44f1-b58d-056257cefa23",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "b801a66f-57a5-448d-9298-6cd634429a4e",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "0a83d10b-6541-486d-87f5-48c72f196911",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "90c11abe-d9ed-4330-9253-95f1b2df5954",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "a147e93e-1f8a-4c74-9eef-03e5f1f565c3"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "c03fe7c7-57f4-4e0a-ad3d-04bc2e5c700f",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_3702c327-8c45-4364-9be3-7ad1e824245b",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_dd20a2fb-cff4-42e5-9be8-4af3088bd697",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "db566a2c-506a-42d9-87f8-ae4d689a67bc",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "4b3c66c7-ca77-4dc9-bf7c-2a758a2d9c69",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "b376ec38-a154-4921-9253-49c9a32a2db7",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "86e8553b-2730-457d-a65a-0b4d2da07312",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "e9eb0e86-e9c9-460b-a085-9f55b7f76d15",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "8b80636e-c705-4ca6-8c77-40d08a0d5ed4",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "2a1d8caa-5092-4dee-96a4-08dbe829dee8",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "8128da74-d8c7-4f82-a764-2610a234aa9a",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "e5a5e314-9e04-442c-b385-e3e090de92f4",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "976762e0-061a-4e57-b8f2-17ee2949787d",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "92cc91b4-2c6a-42f3-8a0f-a0fa07301442",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "4e029b39-2939-4965-81c0-cb08670f4999"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "35822437-7658-45f3-b7e7-13185fd20416",
+        "partitions": [
+          {
+            "name": "LocalDateTable_dd20a2fb-cff4-42e5-9be8-4af3088bd697",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('2024-02-05'[atualizacao])), 1, 1), Date(Year(MAX('2024-02-05'[atualizacao])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_3c8aee40-c96e-4ffc-b847-6df96d5489ec",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "cc8610c6-cdef-49d7-99d8-5f0587fde78f",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "c4c6fdb1-ba4e-4a4c-96c1-d5092102bdcf",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "261aaec4-56e5-4f31-9a24-2d3b92c611e6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "9aa0176c-ce6d-4a92-87bc-5bce9c9656f4",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "f308ef95-e1e4-428f-b14b-09e0ea1b3995",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "bbdb6b24-5626-4b10-ae6a-9636bc3a48f1",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "7ef6668f-c616-4228-97b7-1288c0bc6551",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "60ea1dc1-b639-4f00-b018-66643c79f280",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "b1890291-dc5d-4d45-9c53-11de55b88584",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "90942c24-2359-4600-a235-3a3efbaca9d2",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "cb9a4406-af63-423e-b44a-46b6a989f238",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "b180407a-681c-49b6-80a6-3f0c9e3233d2"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "7accdab0-1be1-4c38-9198-67ec482ab3c7",
+        "partitions": [
+          {
+            "name": "LocalDateTable_3c8aee40-c96e-4ffc-b847-6df96d5489ec",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('2024-02-05'[horario])), 1, 1), Date(Year(MAX('2024-02-05'[horario])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}
